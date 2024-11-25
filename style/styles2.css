@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.center{
+    background: rgb(52,1,28);
+    background: linear-gradient(132deg, rgba(52,1,28,1) 0%, rgba(102,0,80,1) 100%);
+    padding: 10px 100px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(255, 0, 140, 0.822);
+}
+
+.texto{
+    padding: 40px 100px;
+}
+
+.nborder{
+    border: 0px;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    transition: 0.3s all;
+    color: #f35b8b;
+}
+
+#especial{
+    border: 1px solid #f35b8b;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s all;
+}
+#especial:hover{
+    background-color: #861e3f;
+    color: #ffffff;
+}
+
+h1{
+    font-weight: 200;
+}
+
+/* ---------------------------------- TOPO ---------------------------------- */
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.t-center{
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    font-size: 30px;
+    color: #f35b8b;
+}
+.alerta-span{
+    color:rgb(255, 123, 123);
+    
+}
+
+p{
+    text-align: justify;
+    line-height: 20px;
+    font-family: poppinslight;
+    margin-top: 20px;
+}
+
+
+fieldset{
+    border: 3px solid #f35b8b;
+    border-radius: 15px;
+}
+
+#destaque{
+    border: 3px solid rgb(255, 123, 123);
+}
+
+legend{
+    font-family: poppinsmedium;
+    padding: 5px;
+}
+img{
+    border-radius: 5%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    transition: 0.3s all;
+}
+img:hover{
+    border-radius: 4%;
+    align-items: center;
+    display: flex;
+    transform: scale(1.01);
+    margin: auto;
+}
+
+.tamanho{
+    padding: 20px;
+    width: 150px;
+}
+
+
+/* ---------------------------------- TEXT ---------------------------------- */
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
